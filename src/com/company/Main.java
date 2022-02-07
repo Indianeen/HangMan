@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 //Random word
-
+String selectedword =
         //invisible
-
-        //Input
-        String guess= JOptionPane.showInputDialog("Guess your letter/ word (all lowercase, in english)");
+        for(int i=0; i<selectedword.length; i++){
+            selectedword[i] = '_';}
+            //Input
+        String playerinput= JOptionPane.showInputDialog("Guess your letter/ word (all lowercase, in english)");
         //True/false
 
 
